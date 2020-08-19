@@ -1,0 +1,57 @@
+Answer1.
+C) Between -1 and 1
+Answer2.
+C) Recursive feature elimination
+Answer3. 
+A) linear
+Answer4.
+D) Supportive vector classifier
+Answer5.
+A) 2.205 * old coefficient of ‘X’
+Answer6.
+B) increase
+Answer7.
+B) Random Forests explain more variance in data then decision trees
+Answer8.
+B) Principal Components are calculated using unsupervised learning technique and C) Principal Components are linear combination of Linear Variables
+Answer9.
+A) and C)
+Answer10.
+A) max_depth, B) max_features and D) min_sample_leaf 
+Answer11.  
+Outliers:- Outliers are the error or exception, that lies outside (either smaller than or larger than) from most of the other values in a data set.
+Inter Quartile Range method:- IQR is used to measure variability by dividing a data set into quartiles. The data is sorted in ascending order and split into 4 equal parts. Q1, Q2, Q3 called first, second and third quartiles are the values which separate the 4 equal parts.
+* Q1 represents the 25th percentile of the data.
+* Q2 represents the 50th percentile of the data.
+* Q3 represents the 75th percentile of the data.
+If a dataset has (2n / 2n+1) data points, then
+Q1= median of the dataset. 
+Q2 = median of n smallest data points.
+Q3 = median of n highest data points.
+IQR is the range between the first and the third quartiles namely Q1 and Q3: IQR = Q3 – Q1. The data points which fall below Q1 – 1.5 IQR or above Q3 + 1.5 IQR are outliers.
+
+Answer12.
+Sr. noBaggingBoosting1.Any element has the same probability to appear in a new data set.Boosting the observations are weighted and therefore some of them will take part in the new sets more often2.Training stage is parallel for Bagging.Boosting builds the new learner in a sequential way.3. In Bagging the result is obtained by averaging the responses of the N learners (or majority vote).Boosting assigns a second set of weights, this time for the N classifiers, in order to take a weighted average of their estimates.
+Answer13.
+Adjusted R-squared in Logistic Regression:- The adjusted R-squared compares the explanatory power of regression models that contain different numbers of predictors. The adjusted R-squared is a modified version of R-squared that has been adjusted for the number of predictors in the model. The adjusted R-squared increases only if the new term improves the model more than would be expected by chance. It decreases when a predictor improves the model by less than expected by chance. The adjusted R-squared can be negative, but it’s usually not.  It is always lower than the R-squared.
+Calculation of Adjusted R-squared method:- Adjusted R-Squared can be calculated mathematically in terms of sum of squares. The only difference between R-square and Adjusted R-square equation is degree of freedom.
+                                      
+
+Answer14.
+Sr.noStandardizationNormalization1.The features will be rescaled to ensure the mean and the standard deviation to be 0 and 1, respectively.his technique is to re-scales features with a distribution value between 0 and 1. 2.
+Xstand= (X-mean(X))/standard deviation(X)
+
+Xnorm= X-min(X)/(max(X)-min(X))3.Useful for the optimization algorithmsFor every feature, the minimum value of that feature gets transformed into 0, and the maximum value gets transformed into 1.
+Answer15.
+Cross-Validation:- Cross-validation is a technique in which we train our model using the subset of the data-set and then evaluate using the complementary subset of the data-set.
+The three steps involved in cross-validation are as follows:
+1. Reserve some portion of sample data-set.
+2. Using the rest data-set train the model.
+3. Test the model using the reserve portion of the data-set.
+
+Advantages of cross-validation:
+1. More accurate estimate of out-of-sample accuracy.
+2. More “efficient” use of data as every observation is used for both training and testing.
+Disadvantages of Cross Validation
+   1. Increases Training Time
+
