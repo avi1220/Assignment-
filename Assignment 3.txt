@@ -1,0 +1,33 @@
+Answer1
+A) Java script tagging
+Answer2
+A) selenium
+Answer3
+A) Browser based applications
+Answer4
+A) , B), C)
+Answer5
+B) tag.name
+Answer6
+C) lxml
+Answer7
+C) execute tests on HtmlUnit browser
+Answer8
+C) the list of all webelements associated with the ‘given xpath’
+Answer9
+D) ‘a’ number of pixels vertically
+Answer10
+A) and B)
+Answer11
+Web ScrapingWeb CrawlingOnly “scrapes” the data (takes the selected data and downloads it).Only “crawls” the data (goes through the selected targets).Can be done manually by hand.Can be done manually by hand.De-duplication is not always necessary as it can be done manually, hence in smaller scales. A lot of content online gets duplicated, and in order to not gather excess, duplicated information, a crawler will filter out such data.Answer12
+Robots.txt:- Robots.txt is a text (not html) file you put on your site to tell search robots which pages you would like them not to visit. The location of robots.txt is very important. It must be in the main directory because otherwise user agents (search engines) will not be able to find it.
+Use of Robots.text:- robots.txt is used primarily to manage crawler traffic to your site, and usually to keep a page off Google, depending on the file type.
+Answer13
+Static Web PageDynamic Web PageIn static web pages, Pages will remain same until someone changes it manually.In dynamic web pages, Content of pages are different for different visitors.In Static Web Pages, database is not used.In dynamic web pages, database is used.Static web pages are written in languages such as: HTML, JavaScript, CSS, etc.Dynamic web pages are written in languages such as: CGI, AJAX, ASP, ASP.NET, etc.In static web pages, Information are change rarely.In dynamic web page, Information are change frequently.
+Answer14
+
+
+
+
+Answer15
+
