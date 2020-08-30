@@ -1,0 +1,95 @@
+Answer1
+B) Struct
+
+Answer2
+C) 1_no
+
+Answer3
+A) in
+
+Answer4
+A) left to right
+
+Answer5
+C) 
+
+Answer6
+C) 0.333
+
+Answer7
+C)
+
+Answer8
+B) str
+
+Answer9
+A) and D)
+
+Answer10
+A), C), D)
+
+Answer11
+List:- 
+1. Lists are used to store an indexed list of items.
+2. A list created by squared brackets with commas separating items.
+3. Lists are ordered and mutable.
+Tuple:-
+1. Tuples are similar to list except they are immutable.
+2. Tuple created using ()
+3. Tuples are ordered and immutable.
+Set:-
+1. Sets are data structures similar to lists.
+2. Set can be created using set() or {}
+3. Sets are unordered and mutable.
+Dictionary:-
+1. Dictionaries are data structures used to map arbitrary keys to values.
+2. Dictionary can be created using {}.
+3. Dictionary is unordered and mutable.
+
+Answer12
+No, strings are not mutable in python.
+Program:-
+a= "I+LOVE+PYTHON"
+new = a.replace("+", " ")
+print(new)
+
+Answer13
+The ord() function returns the number representing the unicode code of a specified character.
+Example:-
+Return the integer that represents the character "a" i.e., 97:
+
+x = ord("a")
+
+To get the datatype of a variable, we use type() function
+Example:-
+x = ord("a")
+type(x)
+output:- <class 'int'>
+
+Answer14
+program:-
+import cmath
+a= int(input("Enter the Number: "))
+b= int(input("Enter the Number: "))
+c= int(input("Enter the Number: "))
+d= (b**2)-(4*a*c)
+sol1 = (-b-cmath.sqrt(d))/(2*a)
+sol2 = (-b+cmath.sqrt(d))/(2*a)
+print('The solution are {0} and {1}'.format(sol1,sol2))
+
+Answer15
+import math
+
+a = int(input("Enter the coefficients of a: "))
+b= int(input("Enter the coefficients of b: "))
+c= int(input("Enter the coefficients of c: "))
+d = (b**2)-(4*a*c)
+if d < 0:
+    print("This equation has no real solution")
+elif d == 0:
+    x = (-b+math.sqrt(b**2-4*a*c))/2*a
+    print("This equation has one solutions: ", x)
+else:
+    x1 = (-b+math.sqrt(b**2-4*a*c))/2*a
+    x2 = (-b-math.sqrt(b**2-4*a*c))/2*a
+    print("This equation has two solutions: ", x1, " and", x2)
