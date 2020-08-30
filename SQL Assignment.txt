@@ -1,0 +1,60 @@
+Answer1
+A) Create, D) ALTER
+
+Answer2
+A) Update, B) Delete, C) Select
+
+Answer3
+B) Structured Query Language
+
+Answer4
+B) Data Definitive Language
+
+Answer5
+A) Data Manipulation Language
+
+Answer6
+C) Create Table A (B int, C float)
+
+Answer7
+B) Alter Table A ADD COLUMN D float
+
+Answer8
+B) Alter Table A Drop Column D
+
+Answer9
+B) Alter Table A Alter Column D int
+
+Answer10
+D) none of them
+
+Answer11
+Data Warehouse:- It is a type of data management, that contain large amount of business data and used to perform queries and analysis to derive useful business insights.
+The data within a data warehouse is usually derived from multiple sources such as application log files and transaction applications.
+
+Answer12
+OLTP:- 
+1. Stands for Online Transaction Processing.
+2. Its function is to capture and maintain trasaction data in a database.
+3. Its response time is in millisecond.
+OLAP:-
+1. Stands for Online Analytical Processing.
+2. It is used to perform queries and analysis on large amount of data from OLTP database.
+3. Its response time is depend on the amount of data to process.
+
+Answer13
+There are main four characterstics of Data Warehousing:-
+1. Subject Oriented:- It is subject oriented as it tell information about a specific theme.
+For ex. Sales, marketing, distribution etc.
+2. Integrated:- Data warehouse is built by integrating data from multiple sources.
+3. Time-Variant:- The data is built on different time interval such as weeekly, monthly, or annually.
+4.  Non-Volatile:- In data warehouse, the data resided is permanent. Hence the data cannot be erased or deleted when new data is inserted. 
+Answer14
+This schema is widely used to build a data warehouse and dimensional data marts. 
+It includes one or more fact tables indexing any number of dimensional tables. 
+The star schema is a necessary case of the snowflake schema. 
+It is also efficient for handling basic queries.
+
+Answer15
+SETL (stands for SET Language) is based on set theory and used for mathematical and telecommunication applications.
+The operations on sets available in SETL are the usual set-theoretic ones, among others intersection, union, difference, as well as tests for element and (sub)set inclusion.
