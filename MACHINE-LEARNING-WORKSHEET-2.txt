@@ -1,0 +1,53 @@
+1-
+  D-None of above
+2-
+  A) Decision trees are prone to outliers.
+3-
+  C) Random Forest
+4-
+  A) Accuracy
+5-
+  B) Model B
+6-
+  A) Ridge D) Lasso
+7-
+  B) Decision Tree
+  C) Random Forest
+8-
+  D) All of the above
+9-
+  B) A tree in the ensemble focuses more on the data points on which the previous tree was not performing well
+  C) It is example of bagging technique
+
+10- 
+   R^2 shows the linear relationship between the independent variables and the dependent variable. It is defined as (1−SSE/SSTO) which is the sum of squared errors divided by the total sum    of squares.(SSTO=SSE+SSR) which are the total error and total sum of the regression squares. As independent variables are added SSR will continue to rise (and since SSTO is fixed) SSE      will go down and R^2 will continually rise irrespective of how valuable the variables you added are.
+  The Adjusted R2 is attempting to account for statistical shrinkage. Models with tons of predictors tend to perform better in sample than when tested out of sample. The adjusted R2     "penalizes" you for adding the extra predictor variables that don't improve the existing model. It can be helpful in model selection. Adjusted R^2 will equal R^2 for one predictor     variable. As you add variables, it will be smaller than R^2.
+  R^2 explains the proportion of the variation in your dependent variable (Y) explained by your independent variables (X) for a linear regression model.While adjusted R^2 says the     proportion of the variation in your dependent variable (Y) explained by more than 1 independent variables (X) for a linear regression model.
+
+11-
+  In L1 regularization, we penalize the absolute value of the weights while in L2 regularization, we penalize the squared value of the weights.
+  In L1 regularization, we can shrink the parameters to zero while in L2 regularization, we can shrink the parameters to as small as possible but not to zero. So, L1 can simply discard the    useless features in the dataset and make it simple.
+
+12
+  Variance Inflation Factor (VIF) is used to check the presence of multicollinearity in a dataset. It is calculated as— 1/1-R^2
+  where R^2 is the coefficient of determination of the regression equation. This can be repeated for each of the explanatory variables. The size of VIF gives the magnitude of the   multicollinearity. The square root of the VIF shows how much larger the standard error is, compared with what it would be if that variable were uncorrelated with the other predictor   variables in the model. Thus, with a VIF of 10 for variable Xi, the standard error for the coefficient of that variable is √10 = 3.2 times larger than it would be if Xi would be     uncorrelated to the other predictor variables.
+
+
+13-
+   Following are the reason why we need to scale the data before feeding it to train model-
+    There might be missing or erroneous values in the data set
+    There might be categorical (Textual, Boolean) values in the data set and not all algorithms work well with textual values.
+    Some features might have larger values than others and are required to be transformed for equal importance.
+    Sometimes data contains a large number of dimensions and the number of dimensions are required to be reduced.
+
+14-
+   “Goodness of Fit” of a linear regression model attempts to get at the perhaps surprisingly tricky issue of how well a model fits a given set of data, or how well it will
+   predict a future set of observations.
+
+15-
+   sensitivity=TP/TP+FN=1000/1000+50=0.9523
+   specificity=TN/FP+TN=1200/250+1200=.8275
+   PRECISION=TP/TP+FP=1000/1000+250=0.8
+   RECALL=TP/TP+FN=0.9523
+   ACCURACY=TP+TN/TP+TN+FP+FN=0.88
+      
