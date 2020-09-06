@@ -1,0 +1,33 @@
+1-A) Lexical Processing B) Syntactic processing D) Semantic processing
+
+2-C) Chat-Bot building D) Question- Answering system
+
+3-A) Breaking the text in to words
+
+4-A) word_tokenize() B) sent_tokenize()
+
+5--A) [“I”, “love”, “#”, “food”, “#”, “pasta”]
+
+6--B) [“I”, “love”, “#food”, “#pasta”]
+
+7--A) They provide no useful information, especially in applications such as spam detector or search engine.
+   B) Since the frequency of stopwords is very high, removing stopwords results in a much smaller data.
+   C) removing stopwords results in faster computation.
+
+8--A) spam-ham classifier building B) Language Translation task
+
+9--A) It takes in to consideration of only the words present in the text and not the order of the words.
+   C) It captures the semantics of the text.
+
+10--B) (2,5)
+
+11--C) All the words are treated equally regardless of whether they are present in other documents or not
+
+12--C) 0
+
+13--B) 0.89
+
+14--C) tf-idf of both “vapour” and “Bangalore” are equal to zero
+
+15--A) The bow model gives equal importance to all the words while tf-idf model gives more importance to those
+    words in a document which occurs exclusively only I this document .

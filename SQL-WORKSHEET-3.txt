@@ -1,0 +1,61 @@
+1-
+  CREATE TABLE Customers(
+   CustID INT NOT NULL AUTO INCREMENT,
+   customerName VARCHAR(50) NULL,
+   First_Name VARCHAR(50) NULL,
+   Last_Name VARCHAR(50),
+   Phone INT NULL,
+   AddressLine1 VARCHAR(50) NULL,
+   AddressLine2 VARCHAR(50) NULL,
+   City VARCHAR(50) NULL,
+   State VARCHAR(50) NULL,
+   PostalCode INT NULL,
+   Country VARCHAR(50) NULL,
+   SalesRepEmpNO INT NULL,
+   CreditLimit FLOAT NULL
+   );
+
+
+2--
+   CREATE TABLE Orders(
+   OrderNo INT NOT NULL AUTO INCREMENT,
+   Order_Date DATE,
+   Required_Date DATE,
+   Shipped_Date DATE,
+   Status VARCHAR(50) NULL,
+   Comments VARCHAR(60) NULL,
+   CustomerNo INT NULL
+   );
+
+3--
+   SHOW TABLES FROM Orders LIKE "date%";  
+
+4--
+   SELECT Comments FROM Orders; 
+
+5--
+   SELECT * FROM Order_Date WHERE your date-column >= '2020-09-06' 
+
+6--
+   SELECT employeeNumber, lastName ,firstName FROM employees;
+
+7--
+   SELECT customerName FROM Customers  
+   CROSS JOIN orderNO FROM Orders;
+
+10--
+    SELECT PRODUCTname, MSRP , productDescription  FROM Products;
+
+11--
+    SELECT ProductName,ProductDescription
+    FROM products
+    WHERE ProductName =
+     (
+       SELECT MAX(ProductName)
+         FROM products
+     );
+      
+  
+
+      
+     
