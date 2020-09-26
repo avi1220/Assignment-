@@ -1,0 +1,40 @@
+1.  Which command method looks through a tag’s descendants and retrieves all descendants that match your filters?
+    C) find_all() 
+
+2. Which operating system among the following is not supported by selenium.
+    C) Unix 
+
+3. Which of these languages is NOT supported by the Selenium RC.
+   C) ASP 
+
+4. Which of these commands is used to enter text in text_boxes.
+    D) send_keys()
+
+5. Websites fetched by crawler are indexed and kept in huge database, this process is called as:
+    B) Indexing
+
+6. Web Crawler is also called as: 
+    C) Web-spider 
+
+7. Which selenium command among the following makes WebDriver wait for a certain condition to occur before proceeding further with execution.
+   D) none of the above
+
+8. Which of the following are commonly used expected conditions in Selenium?
+   A) title_contains 
+
+9. Where xpath is used?
+    C) XML 
+
+10. Which of the following commands is used to find an element in a webpage from the id attribute of its tag. 
+    C) find_elements_by_id 
+
+11. Consider the following line in a HTML code
+      <a class="sister" href="http://example.com/lacie" id="link2"># Lacie # </a>
+     Which of the following are attributes of <a> tag here?
+    A) class B) href
+
+12. Which among the following is/are parsers used in BeautifulSoup?
+     B) soup_parser   C) lxml 
+
+13. Select the packages you require generally in web-scraping.
+   A) Selenium   B) BeautifulSoup  C) Requests 
