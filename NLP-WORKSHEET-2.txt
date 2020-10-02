@@ -1,0 +1,30 @@
+1--C) '[/w]*@[/w]*.[/w]*'
+
+2--A) ‘*’    B) ‘+’
+
+3--A) ‘@[/w]{4}’     C) ‘@[/w]{1,4}’ 
+
+4--B) ‘^/[/d]{4)/[/d]{2}/[/d]{2}’
+
+5--A) /w
+
+6--A) pattern="#\w+"
+
+7-- C) pattern= '@[A-z0-9]+'     D) pattern= ‘@\w+’
+
+8--D) None of them
+
+9--D) All of the above
+
+10--A) {0,}
+
+11--C) \d
+
+12--C) F-Distribution 
+
+13--B) worse     C) slept
+
+14--A) re.sub('Road', 'Rd', street)
+
+15--A) <re.match object; span = (1, 5), match = 'abbb'>
+
