@@ -1,0 +1,81 @@
+1   A) GridSearchCV()
+
+2  D) All of the above
+
+3  B)The regularization will decrease
+
+4  A) It regularizes the decision tree by limiting the maximum depth up to which a tree can be grown.
+
+5.  C) In case of classification problem, the prediction is made by taking mode of the class labels predicted by the component trees.
+
+6. B) Gradient Descent algorithm can keep oscillating around the optimal solution and may not settle.
+
+7. A) Bias will increase, Variance decrease
+
+8.  B) model is overfitting
+
+9=
+Entropy is the measure of impurity as given by : Entropy= -p log2p – q log2q 
+
+entropy=-((40/100)log2(40/100) + (60/100)log2(60/100))= 0.96
+
+And Gini is given as Gini=1- ((P+)2 +(P-)2 ) 
+
+gini=1-((40/100)2 + (60/100)2)=0.48
+
+10=
+Random forests overcome several problems with decision trees, including:
+a-Reduction in overfitting: by averaging several trees, there is a significantly lower risk of overfitting and is therefore more accurate.
+b-Less variance: By using multiple trees, you reduce the chance of stumbling across a classifier that doesn’t perform well because of the     relationship between the train and test data.
+
+11=
+The need of scaling all numerical features in a dataset because it is a step of Data Pre Processing which is applied to independent variables or features of data. It basically helps to normalise the data within a particular range. Sometimes, it also helps in speeding up the calculations in an algorithm.
+Algorithms where Feature Scaling matters:
+a- K-Means uses the Euclidean distance measure here feature scaling matters.
+b- K-Nearest-Neighbours also require feature scaling.
+c- Principal Component Analysis (PCA): Tries to get the feature with maximum variance, here too feature scaling is required.
+d-Gradient Descent: Calculation speed increase as Theta calculation becomes faster after feature scaling.
+       Naive Bayes, Linear Discriminant Analysis, and Tree-Based models are not affected by feature scaling.
+
+       -Techniques used for scaling : StandardScaler and MinMaxScaler
+
+12=
+Gradient descent which is an optimization algorithm often used in Logistic Regression, SVM, Neural Networks etc. is another prominent example where if features are on different scale, certain weights are updated faster than others. However, feature scaling helps in causing Gradient Descent to converge much faster as standardizing all the variables on to the same scale, for example, for a linear regression makes it easy to calculate the slope ( y = mx + c) (where we normalize the M parameter to converge faster).
+
+13=
+In highly imbalanced dataset,accuracy will not be good metrics to measure the performance. Accuracy can be misleading. Sometimes it may be desirable to select a model with a lower accuracy because it has a greater predictive power on the problem.
+
+14=
+The F1 score can be interpreted as a weighted average of the precision and recall, where an F1 score reaches its best value at 1 and worst score at 0. The relative contribution of precision and recall to the F1 score are equal. 
+The formula for the F1 score is:
+        F1 = 2 * (precision * recall) / (precision + recall)
+
+15=
+Fit(): Method calculates the parameters μ and σ and saves them as internal objects.
+Transform(): Method using these same parameters apply the transformation to a particular dataset.
+Fit_transform(): joins the fit() and transform() method for transformation of dataset.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
