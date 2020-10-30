@@ -1,0 +1,24 @@
+1-A) Yes
+
+2-A) Red
+
+3-B) They cannot be used when the data is not completely linearly separable while allowing no errors
+    C) They are not optimal to use in case of outliers
+
+4-D) All of the above
+
+5-A) Yes
+
+6-A) They are less sensitive to outliers and can be used even in their presence
+    B) They make sure that there is no data point present in the margin area
+    D) They can be used in case data is not completely linearly separable
+
+7-A) They take the data from lower dimensional space to some higher dimensional space in case the data is not  likely to be linearly separable
+    B) They use the kernel tricks to escape the complex computations required to transform the data
+
+8-B) We have to first convert the whole data in to the higher dimensional space before applying the kernel function
+   C) The data product values given by the kernel functions are used to find the classifier in the higher dimensional space.
+
+9-C) It is a model trained using supervised learning. It can be used for classification and regression.
+
+10-D) All of the above
