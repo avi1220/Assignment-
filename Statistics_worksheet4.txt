@@ -1,0 +1,43 @@
+1- a) True
+
+2-a) Central Limit Theorem
+
+3-b) Modeling bounded count data
+
+4-d) All of the mentioned
+
+5-c) Poisson
+
+6-b) False
+
+7-b) Hypothesis
+
+8-a) 0
+
+9-b) Outliers can be the result of spurious or real processes
+
+10-
+The normal distribution is a probability function that describes how the values of a variable are distributed. It is a symmetric distribution where most of the observations cluster around the central peak and the probabilities for values further away           from the mean taper off equally in both directions. Extreme values in both tails of the distribution are similarly unlikely.
+
+11-
+There are mainly two ways to handle missing data, which are:
+By deleting the particular row: The first way is used to commonly deal with null values. In this way, we just delete the specific row or column which consists of null values. But this way is not so efficient and removing data may lead to loss of information which will not give the accurate output.
+By calculating the mean: In this way, we will calculate the mean of that column or row which contains any missing value and will put it on the place of missing value. This strategy is useful for the features which have numeric data such as age, salary, year, etc. Here, we will use this approach.
+Recommended  imputation techniques: Knn imputation, Gaussian mixture imputation
+
+
+12-
+An A/B test is a randomized experiment, in which the "A" and "B" refer to 2 variants, undertaken in order to determine which variant is the more "effective".A/B Testing is designed to test the new feature of a website. The traffic on the website that is users are randomly split into two groups: control (A) and experiment (B). Here, the users are either shown the original website or the modified website but not both and based on the statistical analysis the better version of the website is chosen to launch.
+
+13
+Bad practice in general.If just estimating means: mean imputation preserves the mean of the observed data which leads to an underestimate of the standard deviation.Distorts relationships between variables by “pulling” estimates of the correlation toward zero.
+
+14-
+Linear regression is a basic and commonly used type of predictive analysis.  The overall idea of regression is to examine two things: (1) does a set of predictor variables do a good job in predicting an outcome (dependent) variable?  (2) Which variables in particular are significant predictors of the outcome variable, and in what way do they–indicated by the magnitude and sign of the beta estimates–impact the outcome variable?  These regression estimates are used to explain the relationship between one dependent variable and one or more independent variables.  The simplest form of the regression equation with one dependent and one independent variable is defined by the formula y = c + b*x, where y = estimated dependent variable score, c = constant, b = regression coefficient, and x = score on the independent variable.
+
+15-
+The two main branches of statistics are descriptive statistics and inferential statistics.
+Descriptive Statistics:-
+Descriptive statistics deals with the presentation and collection of data. This is usually the first part of a statistical analysis. It is usually not as simple as it sounds, and the statistician needs to be aware of designing experiments, choosing the right focus group and avoid biases that are so easy to creep into the experiment.
+Inferential Statistics:-
+Inferential statistics, as the name suggests, involves drawing the right conclusions from the statistical analysis that has been performed using descriptive statistics. In the end, it is the inferences that make studies important and this aspect is dealt with in inferential statistics.
