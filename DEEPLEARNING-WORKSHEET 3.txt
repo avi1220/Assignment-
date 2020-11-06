@@ -1,0 +1,44 @@
+1--B) As number of hidden layers increase, model capacity increases
+
+2--C) It normalizes (changes) all the input before sending it to the next layer
+
+3--A) Network will not converge
+
+4--A) 1, 2, 4, 5
+
+5--C) (-4, -4, 3)
+
+6--B) Simulate the network on a test dataset after every epoch of training. Stop training when the generalization
+error starts to increase
+
+7--B) Stochastic Gradient Descent
+    C) Full Batch Gradient Descent
+
+8--A) Freeze all the layers except the last, re-train the last layer
+
+9--B) Training is too slow
+     C) Restrict activations to become too high or low
+
+10--A) ReLU
+
+11--If we do not use activation function in artificial neural networks in that case, every neuron will only be performing a linear transformation on the inputs using the weights and biases. Although linear transformations make the neural network simpler, but this network would be less powerful and will not be able to learn the complex patterns from the data.Thus we use a non linear transformation to the inputs of the neuron and this non-linearity in the network is introduced by an activation function.
+
+12--Forward propagation: -The inputs are provided with weights to the hidden layer. At each hidden layer, we calculate the output of the activation at each node and this further propagates to the next layer till the final output layer is reached. Since we start from the inputs to the final output layer, we move forward and it is called forward propagation.
+
+Backpropagation: - We minimize the cost function by its understanding of how it changes with changing the weights and biases in a neural network. This change is obtained by calculating the gradient at each hidden layer (and using the chain rule). Since we start from the final cost function and go back each hidden layer, we move backward and thus it is called backward propagation.
+
+13--Gradient descent is a first-order iterative optimization algorithm for finding the minimum of a function.
+
+Batch Gradient Descent:--In Batch Gradient Descent, all the training data is taken into consideration to take a single step. We take the average of the gradients of all the training examples and then use that mean gradient to update our parameters. So that’s just one step of gradient descent in one epoch.Batch Gradient Descent is great for convex or relatively smooth error manifolds.
+
+Stochastic Gradient Descent:--In Batch Gradient Descent we were considering all the examples for every step of Gradient Descent. But what if our dataset is very huge. Deep learning models crave for data. The more the data the more chances of a model to be good. Suppose our dataset has 5 million examples, then just to take one step the model will have to calculate the gradients of all the 5 million examples. This does not seem an efficient way. To tackle this problem we have Stochastic Gradient Descent. In Stochastic Gradient Descent (SGD), we consider just one example at a time to take a single step.
+
+Mini Batch Gradient Descent:--Batch Gradient Descent can be used for smoother curves. SGD can be used when the dataset is large. Batch Gradient Descent converges directly to minima. SGD converges faster for larger datasets. But, since in SGD we use only one example at a time, we cannot implement the vectorized implementation on it. This can slow down the computations. To tackle this problem, a mixture of Batch Gradient Descent and SGD is used.Neither we use all the dataset all at once nor we use the single example at a time. We use a batch of a fixed number of training examples which is less than the actual dataset and call it a mini-batch. Doing this helps us achieve the advantages of both the former variants we saw. 
+
+14--Main benifits of Mini-Batch Gradient Descent are as follow:
+      (a)Computational Efficiency:- In terms of computational efficiency, this technique lies between the two previously introduced techniques.
+      (b)Stable Convergence: Another advantage is the more stable converge towards the global minimum since we calculate an average gradient over n samples that results in less noise.
+       (c)Faster Learning: As we perform weight updates more often than with stochastic gradient descent, in this case, we achieve a much faster learning process.
+
+15--Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task.It is a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks given the vast compute and time resources required to develop neural network models on these problems and from the huge jumps in skill that they provide on related problems.
+
