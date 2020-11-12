@@ -1,0 +1,32 @@
+1-B
+
+2-C
+
+3-B
+
+4-A and C
+
+5-B and C
+
+6-A and C
+
+7-D
+
+8-C
+
+9-B
+
+10-C and D
+
+11-C
+
+12-A and C
+
+13.-D
+
+14-B
+
+15-
+      BeautifulSoup's find() and findAll() methods can easily filter HTML (XML) files with different attributes in the HTML code to find the desired tag group or individual tags.
+      find()- It just returns the result when the searched element is found in the page. And the return type will be <class 'bs4.element.Tag'>.
+      find_ all()- It returns all the matches or in other words it scans the entire document and returns all the results and the return type will be <class 'bs4.element.ResultSet'>
