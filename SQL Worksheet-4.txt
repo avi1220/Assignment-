@@ -1,0 +1,30 @@
+1-Select avg(count(distinct shippedDate)) from orders group by shippedDate;
+
+2-Select avg(count(distinct orderDate)) from orders group by orderDate;
+
+3-Select productName from products where MSRP=(select min(MSRP) from products);
+
+4-Select productName from products where quantityInStock=(select max(quantityInStock) from products);
+
+5-Select productName,max(quantityOrdered) from products inner join orderdetails on products.productCode = orderdetails.productCode;
+
+6-Select customerName,max(amount) from customers inner join payments on customers.customerName=payments.customerName;
+
+7-Select customerNumber,customerName from customers where city=’Melbourne’;
+
+8-Select customerName from customers where name like ‘N%’;
+
+9-Select customerName from customers where phone=”7%” and city=’Las Vegas’;
+
+10-Select customerName from customers where creditLimit < 1000 and city in (‘Las Vegas’,’Nantes’,’Stavern’);
+
+11-Select orderNumber from orderdetails where quantityOrdered <10;
+
+12-SELECT orderNumber ,customerName FROM Orders INNER JOIN customers 
+      ON orders. customerNumber= customers. customerNumber where customerName like ‘N%’;
+
+13-Select customerName,status from customers inner join orders on customers.customerNumber=orders.customerNumber where            status=’Disputed’;
+
+14-Select customerName , checkNumber, payment from customers inner join payments on            customers.customerNumber=payments.customerNumber where checkNumber like “N%” and paymentDate=“2004-10-19” ;
+
+15-Select checkNumber from payments where amount > 1000;

@@ -1,0 +1,29 @@
+1-D) Expected
+
+2-C) Frequencies
+
+3-B) 12  C) 6 D) 8
+
+4-A) Normal distribution
+
+5-C) F-Distribution
+
+6-B) Hypothesis
+
+7-A) Null Hypothesis
+
+8-A) Two tailed
+
+9-B) Research Hypothesis
+
+10-A) np
+
+11-B) Discrete distribution
+
+12-D) √npq----
+
+13-C) 0.099
+
+14-D) 0 and 1
+
+15-C) remains constant

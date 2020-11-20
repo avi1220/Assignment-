@@ -1,0 +1,60 @@
+1-D (All of the above.)
+
+2-C ( Sigmoid saturate and kill gradients.)
+
+3-C) SoftPlus
+
+4-A (True)
+
+5-B (Xavier Initialization)
+
+6-A (learning rate shrinks and becomes infinitesimally small)
+
+7-B (momentum must be high and learning rate must be low)
+
+8-C (when i has many saddle points and flat areas)
+
+9-A) ADAM     C) NADAM
+
+10-C) when it reaches global minimum
+      D) when it reaches a local minima which is similar to global minima (i.e. which has very less error distance with global minima)
+
+11-
+A convex optimization problem is a problem where all of the constraints are convex functions, and the objective is a convex function if minimizing, or a concave function if maximizing.  
+Linear functions are convex, so linear programming problems are convex problems.  Conic optimization problems "the natural extension of linear programming problems are also convex problems".
+ 
+A non-convex optimization problem is any problem where the objective or any of the constraints are non-convex. Such a problem may have multiple feasible regions and multiple locally optimal points within each region.
+It can take time exponential in the number of variables and constraints to determine that a non-convex problem is infeasible, that the objective function is unbounded, or that an optimal solution is the "global optimum" across all feasible regions.
+
+12-
+In low dimensions, it is true that there exists lots of local minima. However in high dimensions, local minima are not really the critical points that are the most prevalent in points of interest. 
+When we optimize neural networks or any high dimensional function, for most of the trajectory we optimize, the critical points(the points where the derivative is zero or close to zero) are saddle points.
+The intuition with the saddle point, is that, for a minima located close to the global minima, all directions should be climbing upward; going further downward is not possible. Local minima exist, 
+but are very close to global minima in terms of objective functions, and theoretical results suggest that some large functions have their probability concentrated between the index (the critical points) and the objective function. 
+The index is the fraction of directions moving downward; for all values of index not 0 or 1 (local minima and maxima, respectively), then it is a saddle point.
+
+13-
+The main difference is in classical momentum you first correct your velocity and then make a big step according to that velocity (and then repeat), but in Nesterov momentum you first making a step into velocity direction 
+and then make a correction to a velocity vector based on new location (then repeat).
+
+Classical momentum:
+vW(t+1) = momentum.*Vw(t) - scaling .* gradient_F( W(t) )
+W(t+1) = W(t) + vW(t+1)
+
+While Nesterov momentum is this:
+vW(t+1) = momentum.*Vw(t) - scaling .* gradient_F( W(t) + momentum.*vW(t) )
+W(t+1) = W(t) + vW(t+1)
+
+14-
+The aim of pre-weight initialization is to prevent layer activation outputs from exploding or vanishing during the course of a forward pass through a deep neural network.
+
+15-
+In neural networks, the output of the first layer feeds into the second layer, the output of the second layer feeds into the third, and so on. When the parameters of a layer change, so does the distribution of inputs to subsequent layers.
+These shifts in input distributions can be problematic for neural networks, especially deep neural networks that could have a large number of layers.
+
+Batch normalization is a method intended to mitigate internal covariate shift for neural networks.
+
+
+
+
+
