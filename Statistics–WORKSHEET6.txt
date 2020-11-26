@@ -1,0 +1,40 @@
+1-b) Total Variation = Residual Variation + Regression Variation
+
+2-c) binomial
+
+3-a) 2
+
+4-(a) Type-I error
+
+5-(d) Confidence coefficient
+
+6-(b) Increases
+
+7-(b) Hypothesis
+
+8-(d) All of the mentioned
+
+9-(a) 0
+
+10-
+Bayes Theorem is a way of finding a probability when we know the certain other probabilities.
+Formula : P(A|B) = (P(A) P(B|A))/ P(B)
+which tells us how often A happens given that B happens, written P(A|B)
+when we know how often B happens given that A happens, written P(B|A)
+Bayes' Theorem is a way of finding a probability when we know certain other probabilities.
+
+11-
+ A z-score is a measure that gives an idea of how far from the mean a data point is. But more technically it’s a measure of how many standard deviations below or above the population mean a raw score is.
+A z-score can be placed on a normal distribution curve. Z-scores range from -3 standard deviations (which would fall to the far left of the normal distribution curve) up to +3 standard deviations (which would fall to the far right of the normal distribution curve). In order to use a z-score, we need to know the mean μ and also the population standard deviation σ.
+
+12-
+A t-test is a type of inferential statistics used to determine if there is a significant difference between the means of two groups, which may be related in certain features. It is mostly used when the data sets, like the data set recorded as the outcome from flipping a coin 100 times, would follow a normal distribution and may have unknown variances. A t-test is used as a hypothesis testing tool, which allows testing of an assumption applicable to a population.
+
+13-
+Percentile is a number where a certain percentage of scores fall below that number.  If the score is in the 90th percentile, that means the score better than 90% of people who took the test.
+
+14-
+ANOVA stands for analysis of variance. Analysis of variance (ANOVA) is an analysis tool used in statistics that splits an observed aggregate variability found inside a data set into two parts: systematic factors and random factors. The systematic factors have a statistical influence on the given data set, while the random factors do not.
+
+15-
+ANOVA is helpful for testing three or more variables. It is similar to multiple two-sample t-tests. However, it results in fewer type I errors and is appropriate for a range of issues. ANOVA groups differences by comparing the means of each group and includes spreading out the variance into diverse sources. It is employed with subjects, test groups, between groups and within groups.
