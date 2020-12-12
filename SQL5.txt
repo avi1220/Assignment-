@@ -1,0 +1,32 @@
+1-Select * from movie;
+
+2-Select title from movie where runtime=(select max(runtime) from movie);
+
+3-Select title from movie where revenue=(select max(revenue) from movie);
+
+4-Select title from movie where budget=(select max(budget) from movie);
+
+5-Select m.title,p.person_name,g.gender,c.character_name,c.cast_order from movie m inner join movie_cast c on m.movie_id = c.movie_id 
+    inner join person p on c.person_id = p.person_id
+    inner join gender g on c.gender_id = g.gender_id;
+
+6-Select c.country_name from country c inner join production_country p on c.country_id=p.country_id inner join  movie m on p.movie_id=m.movie_d where votes_count=(select max(votes_count) from movie);
+
+7-Select * from genre;
+
+8-Select l.language_name,m.title from language l inner join movie_language ml on l.language_id=ml.language_id inner join movie m on ml.movie_id=m.movie_id group by l.language_name;
+
+9-Select m.title,count(mc.movie_id),count(cr.person_id) from movie m inner join on m.movie_id=mc.movie_id inner join on m.movie_id = cr.movie_id group by m.title;
+
+10- Select title from movie order by popularity desc limit 10;
+
+11-Select title,revenue from movie order by revenue limit 1 offset 2;
+
+12-Select title from movie where movie_status=’rumoured’;
+
+13-Select m.title from movie where revenue=(select max(revenue) from movie);
+
+14-Select m.movie_id,pc.company_name from movie m inner join movie_company mc on m.movie_id=mc.movie_id inner join
+      production_company pc on mc.company_id=pc.company_id;
+
+15-Select title from movie order by budget desc limit 20;
