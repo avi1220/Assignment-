@@ -1,0 +1,30 @@
+1-D) All of the above
+
+2-A) Semantic
+
+3-B) Word Sense Disambiguation
+
+4-A) Lemmatization B) Stemming
+
+5-D) None of the above
+
+6-A) Information retrieval from text
+
+7-C) Separate words into individual morphemes and identify the class of the morphemes
+
+8-A) Word2Vec
+
+9-D) All of the above
+
+10-B) POS tags similarity
+
+11-A) The words similar to each other in meaning will have same POS tags
+
+12-D) All of the above
+
+13-A) The word vectors does not capture the semantics
+
+14-C) The word embeddings are very dense and low-dimensional vectors are compared to co-occurrence matrix
+word vectors.
+
+15-D) None of the above
