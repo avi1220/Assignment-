@@ -1,0 +1,40 @@
+1-B) always increases
+
+2-B) SST = SSR + SSE
+
+3-A) difference between the actual value and the predicted value.
+
+4-C) By its slope
+
+5-B) can be either -1 or 1
+
+6-A) Scatter plot
+
+7-D) None of the above.
+
+8-C) Ridge
+
+9-A) It shows the causal relationship between dependent and independent variables
+   D) It is a straight line that is the best approximation of the given data sets
+
+10-A) Reducing the training time
+     C) Automatic feature selection
+
+11-A) Normal Equation B) Singular Value Decomposition
+     D) nodes
+
+12- R2 shows how well terms (data points) fit a curve or line. Adjusted R2 also indicates how well terms fit a curve or line, but adjusts for the number of terms in a model. If you add more and more useless variables to a model, adjusted r-squared will             decrease. If you add more useful variables, adjusted r-squared will increase.Adjusted R2 will always be less than or equal to R2.
+
+     You only need R2 when working with samples. In other words, R2 isn’t necessary when you have data from an entire population.
+     If you already know R2 then it’s a fairly simple formula to work. However, if you do not already have R2 then you’ll probably not want to calculate this by hand! (If you must, see How to Calculate the Coefficient of Determination). There are many          statistical packages that can calculated adjusted r squared for you. Adjusted r squared is given as part of Excel regression output.
+
+
+13-Cost function for linear regression is defined as the summation of all the errors of difference of whole square of predicted value wrt to the actual data points.Cost function=1/2m(€(Y^-Y)2)
+
+14-SST - The sum of squares total, denoted SST, is the squared differences between the observed dependent variable and its mean.
+    SSR – It is the sum of squares due to regression. It is the sum of the differences between the predicted value and the mean of the dependent variable. It is a measure that describes how well our line fits the data.
+    SSE- The last term is the sum of squares error. The error is the difference between the observed value and the predicted value.
+
+15-The various performance metrics used to evaluate when working in regression are mean squared error, mean absolute error,R2-score and adjusted r2-score.
+
+
